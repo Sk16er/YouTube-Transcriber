@@ -1,4 +1,4 @@
-YouTube Transcriber
+
    🎙️ YouTube Transcriber 🎙️
    -------------------------
    Transcribe YouTube videos with ease!
