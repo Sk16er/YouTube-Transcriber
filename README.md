@@ -238,3 +238,6 @@ Built with ❤️ for users who need an easy way to transcribe YouTube videos.
 
 
 Happy Transcribing! 🎙️
+[ ] Reppo [reppo](https://github.com/Sk16er/YouTube-Transcriber)
+[ ] Gitpage [page](https://sk16er.github.io/YouTube-Transcriber/)
+
