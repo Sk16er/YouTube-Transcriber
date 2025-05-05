@@ -2,6 +2,11 @@ YouTube Transcriber
    🎙️ YouTube Transcriber 🎙️
    -------------------------
    Transcribe YouTube videos with ease!
+____________________________________________________________________________________________________________________________________________________________________________________
+|![image](https://github.com/user-attachments/assets/89573b66-e538-4d1d-ad93-674c2dcf4d3d)|![image](https://github.com/user-attachments/assets/f13543db-ce08-4e3c-8c3f-9a6c27ac5ad7)|
+|                                                                                         |                                                                                         |
+ _____________________________________________________________________________________________________________________________________________________________________________________
+
 
 Overview
 YouTube Transcriber is a Python-based tool that allows you to download audio from YouTube videos and transcribe it into text using the whisper model by OpenAI. This project is designed to be robust, user-friendly, and future-proof, with features like:
