@@ -1,0 +1,60 @@
+Recently, I unlocked a new achievement in life, a midlife crisis, when I came to the realization that I've spent most of my adult life writing code
+And most of that code is total garbage
+It's code that never saw the light of a production server and was either abandoned, refactored, or left to rot in the graveyard of GitHub
+As I reflected upon this further, I realized that many of the best practices, the hot game changing frameworks, and the perfect folder structures, didn't actually matter to the end user
+I wasted countless hours chasing programming dragons that made me feel more productive, but ultimately led nowhere
+In today's video, we'll debunk nine smart ideas that waste your time as a programmer
+And for each myth, we'll look at how it lures you in, why it's actually a trap, and most importantly, how to not do the things that I've done
+Now, one of the main goals of this channel is to show you the latest tech you need to use to be relevant, but it's actually a myth that you need to use the latest tech to be relevant
+In fact, you might even become more hierarchical by focusing on old dinosaur technologies
+Like WordPress and PHP, still runs most of the web applications out there
+Java runs most of the enterprise world, most databases are SQL based, and C++ runs most of the low level systems
+However, there are shiny new replacements for tech like this, including next JS, Kotlin, no sequel, and Rust
+And the lure is a massive feeling of FOMO if you're not mastering the bleeding edge of the so-called superior technologies
+To be clear, I'm not discouraging you from learning these, they're awesome, but it's important to understand that most of the real world, where the jobs exist, are not going to change their dinosaur tech stacks anytime soon
+The critical banking system still run on Coball, and Java will still be powering 3 billion devices long after everybody watching this is dead
+Most CTOs are smart enough to know that if it ain't broke, don't fix it
+Here's a real life example
+A few years ago, engineers from Twitter released a hot new database called Fauna
+It was a pretty solid product and I even made a video about it, but the technology was proprietary, VC-funded, and like most startups, the business failed recently
+They have no choice but to shut down their servers, and if you were an early adopter, you're now screwed, and would have been much better off with a boring sequel database
+Adopting tech too early is one thing, but adhering to programming dogma can waste even more time
+The problem with programming is that there are many different ways to solve the same problem, but some people out there believe that there's only one true way to write code
+Some common cults out there include the object-oriented purists and the functional programming extremists
+I've been a member of both cults and have learned a lot from them, but dedicating your entire life to just one of them is a waste of time
+I mostly code in JavaScript, which is a multi-paradigm language that can satisfy all of these cults
+In 2018, functional programming was having a renaissance in web development
+Back then, if you use classes in your code, you were literally Hitler, and I found myself bending over backwards to try to do everything in the most functional way possible
+No mutable state and higher order functions everywhere
+But a few years later, after the spell wore off, I eventually realized that classes can be pretty useful, and my code today often includes a combination of things I've learned from both of these cults
+But another time-waster to watch out for is Clean Code, which comes from a legendary book written by Uncle Bob Martin, known as the Handbook for agile software craftsmanship
+Most of the advice in this book is great
+Use meaningful names, write small functions, use consistent formatting, and so on, but some of the advice is a little more nuanced, like the dry principle of don't repeat yourself, which means you shouldn't duplicate or write the same code over and over again
+And on the surface, that seems like a good idea, but also when you try too hard to keep things clean, you might end up with an endless layer of wrappers, interfaces, and pointless interaction
+It's paralysis by analysis, and you end up spending more time refactoring than building actual features that people want
+I think a better acronym would be RUG, repeat until good
+Duplicate code at first, and then pull it into a single abstraction after the repetition becomes painful
+Clean Code also recommends test-driven development, and testing can be extremely valuable, but it's a myth that 100% test coverage means that your code is well protected
+Your boss, who has no programming experience, is likely a big fan of code coverage tooling that will show how much of your source code is executed when a test suite is run
+It's interesting, but optimizing for 100% coverage is often a huge waste of time, and can often be misleading, because high coverage does not equal high quality
+Optimizing for coverage encourages developers to write pointless tests that just touch lines and not catch real bugs, and even worse than wasting time, it provides a full sense of security
+And then on top of that, it makes your CI builds even slower, which is going to cost you more money
+When it comes to test coverage, it's quality, not quantity that matters, but one thing that surely must matter is performance
+Well, actually, it's a myth that you should always optimize for performance, yet another time-waster is benchmarking an optimizing code that just doesn't run at the scale to justify those optimizations
+It's far more important to make sure that your code is correct, and then only optimize for performance when it becomes painfully obvious that your code sucks in production
+On a similar note, you also don't need to optimize your cloud infrastructure like you're about to scale like Facebook
+Like I used to think that I needed this complex serverless microservice architecture with global sharding and edge caching, but it turns out that one small VPS is perfectly fine for my five users
+And then finally, that brings us to the elephant in the room
+The myth that AI is about to replace all programmers soon
+There's some awesome AI code writing tools out there, but it's becoming more and more clear that many programmers are now wasting a bunch of time relying too much on AI
+For example, Claude's on at 3.7 is really good at writing code, but it's also notoriously verbose
+You might ask it to build a simple website, and it'll just randomly engineer some new JavaScript framework from scratch
+And because you forgot how to write code, you'll just approve it and move on with your life
+AI programming tools are both the greatest productivity booster I've ever seen in my life, but when used improperly, they can also be the biggest time-waster
+The key to success is to have a solid foundation and problem-solving, and you can start building that foundation for free today thanks to this video sponsor, Brilliant
+A hard truth is that code is useless if you don't understand the math and computer science behind it
+Brilliant helps you learn these concepts quickly by providing short, fun, interactive lessons, which is a method proven to be six times more effective than watching video lectures
+But most importantly, you'll build critical thinking skills through problem-solving, not memorizing
+Before you try to jump into vibe coding, I'd highly recommend taking their thinking and code course to build a timeless problem-solving foundation, where you'll learn how to actually think like a programmer
+Try everything Brilliant has to offer for free for 30 days by visiting Brilliant.org slash-fireship or scan the QR code on screen and get 20% off an annual premium subscription
+Thanks for watching, and I will see you in the next one.
